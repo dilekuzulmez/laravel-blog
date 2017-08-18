@@ -1,5 +1,15 @@
 @extends('main')
 
+@section('title', '| Homepage')
+
+
+<!--
+@section('stylesheets')
+    <link rel="stylesheets" type="text/css" href="styles.css">
+@endsection
+-->
+
+
 @section('content')    
      <div class="container">
         <div class="row">
@@ -48,3 +58,9 @@
             </div>
         </div>
 @endsection
+
+{{--
+@section('scripts')
+    <script>confirm('I loaded up some JS');</script>
+@endsection
+--}}
